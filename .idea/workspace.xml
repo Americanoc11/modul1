@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aba12cf-99f0-4e6f-a40c-66c6264a94a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap/ss5_baitap1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap/ss5_baitap2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap/ss5_baitap3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap/ss5_baitap5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss5_form_table/bai_tap/ss5_baitap3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap/ss5_baitap3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss5_form_table/bai_tap/ss5_baitap5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap/ss5_baitap5.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +72,7 @@
       <workItem from="1669876965436" duration="4237000" />
       <workItem from="1669900263571" duration="1459000" />
       <workItem from="1669951860239" duration="17965000" />
+      <workItem from="1669974949855" duration="291000" />
     </task>
     <servers />
   </component>
