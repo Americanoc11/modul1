@@ -1,0 +1,17 @@
+Begin
+	input score=100
+ if score >=75
+ 	type A
+ end if
+ if 60<=score<75
+	type B
+ end if
+ if 45<=score<60
+	type C
+ end if
+ if 35<=score<45
+	type D
+ if score<35
+	type E
+ end if
+End
