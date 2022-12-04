@@ -1,0 +1,22 @@
+Begin
+	input a1,a2,a3,... ai
+	input n
+	i = 1
+	i = i + 1
+   if i<=n
+	i = i + 1
+   else
+	max = ai
+   end if
+   if ai> max or ai < max
+	If ai> max
+	max = ai
+	If ai < max
+	 max = ai
+	Else
+	 i = i + 1
+   End if
+   Max= ai
+End
+
+
