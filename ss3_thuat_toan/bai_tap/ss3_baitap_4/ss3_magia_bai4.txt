@@ -5,16 +5,16 @@ Begin
 	i = i + 1
    if i<=n
 	i = i + 1
-   else
-	max = ai
    end if
    if ai> max or ai < max
 	If ai> max
 	max = ai
+	end if
 	If ai < max
 	 max = ai
 	Else
 	 i = i + 1
+	End if
    End if
    Max= ai
 End
