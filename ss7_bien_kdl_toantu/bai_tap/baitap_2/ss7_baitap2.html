@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ss7_bt_tiente</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+    </tr>
+    <tr>
+        <td><input type="number" id="money"></td>
+        <td>
+            <select id="from">
+                <option value="Vietnam">Vietnam</option>
+                <option value="American">American</option>
+            </select>
+        </td>
+        <td>
+            <select id="to">
+                <option value="VND">VND</option>
+                <option value="USD">USD</option>
+            </select>
+        </td>
+        <td><input type="submit" value="Convert" onclick="Change()"></td>
+    </tr>
+</table>
+<p id="result"></p>
+<script>
+    function Change() {
+        let money = document.getElementById("money").value;
+        let from = document.getElementById("from").value;
+        let to = document.getElementById("to").value;
+        let result;
+
+
+        if (from == "American" && to == "VND") {
+            result = money * 23000;
+        } else if (from == "Vietnam" && to == "USD") {
+            result = money / 23000;
+        } else if (from == "American" && to == "USD") {
+            result = money;
+        } else {
+            result = money;
+        }
+
+
+        document.getElementById("result").innerHTML = result;
+    }
+</script>
+</body>
+</html>
