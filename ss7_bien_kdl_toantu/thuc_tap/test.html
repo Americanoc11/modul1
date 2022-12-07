@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chuyendoitiente</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>amount</th>
+        <th>from currency</th>
+        <th>to currency</th>
+    </tr>
+    <tr>
+        <td>
+            <input type="text" id="number">
+        </td>
+        <td>
+            <select id="1">
+                <option value="usd">usd</option>
+                <option value="vnd">vnd</option>
+            </select>
+        </td>
+        <td>
+            <select id="2">
+                <option>vnd</option>
+                <option>usd</option>
+            </select>
+        </td>
+        <td>
+            <button onclick="convert()">Ket qua</button>
+        </td>
+    </tr>
+</table>
+
+<div id="ketQua"></div>
+<script>
+    function convert() {
+    let amount=document.getElementById("number").value;
+    let from=document.getElementById("1").value;
+    let to=document.getElementById("2").value;
+    let result="";
+
+    if(from=="usd"&& to=="usd"){
+        result=amount+ "usd";
+    }else if (from=="usd"&&to=="vnd"){
+        result=amount*23000 +"vnd";
+    }else if(from=="vnd"&&to=="usd"){
+        result=amount/23000 +"usd";
+    }else
+        result=amount+"vnd";
+    document.getElementById("ketQua").innerHTML=result;
+    }
+</script>
+</body>
+</html>

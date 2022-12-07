@@ -20,16 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aba12cf-99f0-4e6f-a40c-66c6264a94a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap/ss5_baitap5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap/test_jvs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_bien_kdl_toantu/bai_tap/baitap_1/bai1_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_bien_kdl_toantu/bai_tap/baitap_1/bai1_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_bien_kdl_toantu/bai_tap/baitap_1/baitap1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_bien_kdl_toantu/bai_tap/baitap_1/baitap_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_bien_kdl_toantu/bai_tap/baitap_3/ss7_bt_3.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ss7_bien_kdl_toantu/thuc_tap/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_dk/thuc_hanh/thuchanh1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss5_form_table/bai_tap/ss5_baitap5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap/ss5_baitap5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss7_bien_kdl_toantu/bai_tap/baitap_2/ss7_baitap2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_kdl_toantu/bai_tap/baitap_2/ss7_baitap2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss7_bien_kdl_toantu/bai_tap/baitap_3/ss7_bt_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_kdl_toantu/bai_tap/baitap_3/ss7_bt_3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +51,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -91,7 +87,8 @@
       <workItem from="1670238159860" duration="3893000" />
       <workItem from="1670245392224" duration="991000" />
       <workItem from="1670289393723" duration="16665000" />
-      <workItem from="1670327551830" duration="5348000" />
+      <workItem from="1670327551830" duration="15558000" />
+      <workItem from="1670384597271" duration="2621000" />
     </task>
     <servers />
   </component>
@@ -110,6 +107,9 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1325" y="383" key="#Notifications" timestamp="1670214091911">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -119,9 +119,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1670214087418" />
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1670317641602">
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1670385860235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1670317641602" />
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1670385860235" />
   </component>
 </project>
