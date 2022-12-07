@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ss9 bai tap 1</title>
+</head>
+<body>
+<h2>Tính chỉ số cân nặng</h2>
+<table>
+    <tr>
+        <td>Nhập cân nặng: (kg)</td>
+        <td><input id="CanNang" type="text"></td>
+    </tr>
+    <tr>
+        <td>Nhập chiều cao: (m)</td>
+        <td><input id="ChieuCao" type="text"></td>
+    </tr>
+</table>
+<button onclick="KiemTra()">kiểm tra</button>
+<div id="KiemTra"></div>
+<script>
+    function KiemTra() {
+        let kg=+document.getElementById("CanNang").value;
+        let cao=+document.getElementById("ChieuCao").value;
+        let bmi=kg / (Math.pow(cao,2));
+        let result="";
+        if (bmi <18.5) {
+            result = "underweight";
+        }else if (18.5 <= bmi < 25.0){
+            result = "normal";
+        }else if (25 <= bmi < 30.0){
+            result = "overweight";
+        }else {
+            result = "obese";
+        }
+        document.getElementById("KiemTra").innerHTML=result +bmi;
+    }
+</script>
+</body>
+</html>
