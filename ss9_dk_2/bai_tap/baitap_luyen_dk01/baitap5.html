@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = +prompt(" nhập điểm bài kiểm tra");
+    let b = +prompt(" nhập điểm thi giữa kì");
+    let c = +prompt(" nhập điểm thi cuối kì");
+    let value=(a + b + c)/3
+    if (value>8) {
+        alert("xếp loại giỏi");
+    } else if (value<=7.5 && value==6.5) {
+        alert("xếp loại khá");
+    } else if (value<=6 && value==5) {
+        alert("xếp loại trung bình")
+    } else if (value<=4){
+        alert("xếp loại yếu")
+    }
+</script>
+</body>
+</html>
