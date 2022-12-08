@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let P = +prompt(" nhấp số tiền gốc trong tài khoản");
+    let r = +prompt(" nhâp lãi xuất");
+    let m = +prompt(" nhập số tháng");
+    let A = "";
+    if (P > 0 && r > 0 && m >= 1) {
+        A = P * (1 + r * r / 100) * m;
+        document.write(" lãi xuất kép là : " + A);
+    } else if (p < 0 && r < 0 && n < 1) {
+        document.write(" nhập sai giá trị");
+    }
+</script>
+</body>
+</html>

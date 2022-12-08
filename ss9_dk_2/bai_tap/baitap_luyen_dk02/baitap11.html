@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let luong = +prompt("nhập mức lương thực nhận");
+    let thue;
+    if (luong <= 5000000) {
+        thue = (luong * 5) / 100;
+        document.write("thuế phải nộp: " + thue + "vnd")
+    } else if (luong > 5000000 || luong <= 10000000) {
+        thue = (luong * 10) / 100
+        document.write("thuế phải nộp: " + thue + "vnd")
+    } else if (luong > 10000000 || luong <= 15000000) {
+        thue = (luong * 15) / 100;
+        document.write("thuế phải nộp: " + thue + "vnd")
+    } else if (luong > 50000000 || luong <= 100000000); {
+        thue = (luong * 20) / 100;
+        document.write("thuế phải nộp: " + thue + "vnd");
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exercise 10</title>
+</head>
+
+<body>
+<script>
+    let power = +prompt(" nhập số lượng điện năng tiêu thụ");
+    let price = +prompt("Nhập só kWh cần tính\n" +
+        "    Bậc 1 (0 đến 50kWh): 1.484 VND(/kWh)\n" +
+        "    Bậc 2 (51 đến 100kWh): 1.533 VND (/kWh)\n" +
+        "    Bậc 3 (101 đến 200 kWh): 1.786 VND (/kWh)\n" +
+        "    Bậc 4 (201 đến 300 kWh): 2.242 VND (/kWh)\n" +
+        "    Bậc 5 (301 đến 400 kWh): 2.503 VND (/kWh)\n" +
+        "    Bậc 6 (401 kWh trở lên): 2.587 VND (/kWh)");
+    let bill = power * price;
+
+    if (power > 0 && price > 0) {
+        document.write(bill);
+    } else {
+        document.write(" không ra kết quả");
+    }
+</script>
+</body>
+</html>

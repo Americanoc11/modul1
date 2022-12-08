@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exercise 7: phương trình bậc 2</title>
+</head>
+<body>
+<script>
+    let a = +prompt(" nhập giá trị a");
+    let b = +prompt(" nhập giá trị b");
+    let c = +prompt(" nhập giá trị c");
+    let x1;
+    let x2;
+    let value = (b * b) - 4 * a * c;
+    if (value < 0) {
+        document.write(" phương trình vô nghiệm");
+    } else if (value == 0) {
+        x1 = (-b) / 2 * a;
+        x2 = (-b) / 2 * a;
+        document.write("phương trình có nghiệm là: " + x1 + x2);
+    } else if (value > 0) {
+        document.write(" phương trình có 2 nghiệm phân biệt");
+    }
+
+</script>
+</body>
+</html>

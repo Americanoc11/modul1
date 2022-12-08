@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = +prompt('nhập giá trị a');
+    let b = +prompt('nhập giá trị b');
+    let value = -b / a;
+    if (a == 0 && b === 0) {
+        document.write("phương trình có vô số nghiệm");
+    } else if (a == 0 || b !== 0) {
+        document.write("phương trình vô nghiệm");
+    } else if (a !== 0) {
+        document.write("phương trình có 1 nghiệm duy nhất" + value);
+    }
+
+</script>
+</body>
+</html>
