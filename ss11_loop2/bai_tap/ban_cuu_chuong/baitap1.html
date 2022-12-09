@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bản cửu chương</title>
+</head>
+<body>
+<script>
+    let i;
+    let j;
+    let taoDong;
+    taoDong = "<table border='1px'>";
+    for (i = 1; i <= 9; i++) {
+        taoDong = taoDong + "<tr>";
+        for (j = 1; j <= 9; j++) {
+            taoDong = taoDong + "<td>" + j + " x " + i + " = " + j * i;
+        }
+        ;
+    }
+    ;
+    taoDong = taoDong + "</table>";
+    document.write(taoDong);
+
+</script>
+</body>
+</html>

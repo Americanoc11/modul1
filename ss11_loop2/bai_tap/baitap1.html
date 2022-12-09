@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let loop = "";
+    let i = 1;
+    let number = 0;
+    while (i < 100) {
+        loop = " vòng " + loop + i + " hoàn thành" + "<br>";
+        i++;
+        number++;
+        if (i == 99) {
+            document.write(" vòng " + i + "hoàn thành");
+            break;
+        } else if (i !== 0) {
+            document.write(" không thực hiện được vòng lặp");
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number = 2;
+    let countOfPrime = 0;
+    let count = 0;
+    while (countOfPrime < 20) {
+        if (number == 2 || number == 3) {
+            alert(number + " là số nguyên tố");
+            countOfPrime++;
+            number++;
+            continue;
+        }
+        for (let i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i === 0) {
+                count++;
+                break;
+            }
+        }
+        if (count == 0) {
+            alert(number + " là số nguyên tố");
+            countOfPrime++;
+        } else {
+            alert("Không phải số nguyên tố");
+        }
+        count = 0;
+        number++;
+    }
+</script>
+</body>
+</html>
