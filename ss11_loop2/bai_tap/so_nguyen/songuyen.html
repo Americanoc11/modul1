@@ -7,12 +7,12 @@
 <body>
 <script>
     let number = 2;
-    let countOfPrime = 0;
+    let prime = 0;
     let count = 0;
-    while (countOfPrime < 20) {
+    while (prime < 20) {
         if (number == 2 || number == 3) {
             alert(number + " là số nguyên tố");
-            countOfPrime++;
+            prime++;
             number++;
             continue;
         }
@@ -24,7 +24,7 @@
         }
         if (count == 0) {
             alert(number + " là số nguyên tố");
-            countOfPrime++;
+            prime++;
         } else {
             alert("Không phải số nguyên tố");
         }

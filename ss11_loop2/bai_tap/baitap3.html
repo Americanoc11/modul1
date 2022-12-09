@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Bài tập 3</title>
 </head>
 <body>
+<script>
+    let a = 0;
+    let b = 1;
+    let c = a + b;
+    let value = "";
+    for (let i = 0; i < 20; i++) {
+        a = b;
+        b = c;
+        c = a + b;
+        value = value + c.toString() + ' ';
+    }
+    document.write(" 20 số đầu tiên trong dãy Fibonacci: " + value);
 
+</script>
 </body>
 </html>

@@ -6,11 +6,20 @@
 </head>
 <body>
 <script>
- let num= 1;
- let loop= 0;
-   for (;num<100;num++){
-
-   }
+    let a = 0;
+    let b = 1;
+    let tong = 1;
+    let c = a + b;
+    let result = '0 1 1 ';
+    for (let i = mb3; i <= 20; i++) {
+        a = b;
+        b = c;
+        c = a + b;
+        tong += b;
+        result += c.toString() + ' ';
+    }
+    document.write("20 số fibonacci là: " + result + "<br>" )
+    document.write("Tổng 20 số fibonacci là :  " + tong);
 </script>
 </body>
 </html>

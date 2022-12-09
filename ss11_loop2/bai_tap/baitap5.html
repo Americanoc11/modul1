@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập 5</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = 0;
+    let b = 1;
+    let c = a + b;
+    let value = "";
+    for (let i = 0; i < 20; i++) {
+        a = b;
+        b = c;
+        c = a + b;
+        b = b + 1;
+        value = value + c.toString() + ' ';
+    }
+    document.write(" 20 số đầu tiên trong dãy Fibonacci: " + value + "<br>");
+    document.write(" Tổng 20 số đầu tiên trong Fibonacci: " + b);
+
+</script>
+</body>
+</html>
+</body>
+</html>
