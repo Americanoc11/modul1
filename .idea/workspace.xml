@@ -20,23 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aba12cf-99f0-4e6f-a40c-66c6264a94a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk02/baitap10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk02/baitap11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk02/baitap12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk02/baitap3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk02/baitap4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk02/baitap5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk02/baitap6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk02/baitap7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk02/baitap8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk02/baitap9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk01/Bai1_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk01/Bai1_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk01/baitap2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk01/baitap2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk01/baitap3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk01/baitap3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk01/baitap4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk01/baitap4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk01/baitap5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk01/baitap5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk01/baitap6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk01/baitap6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk02/baitap10.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk02/baitap10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk02/baitap11.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk02/baitap11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk02/baitap9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_dk_2/bai_tap/baitap_luyen_dk02/baitap9.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +90,8 @@
       <workItem from="1670384597271" duration="15585000" />
       <workItem from="1670410437000" duration="8357000" />
       <workItem from="1670464596738" duration="18083000" />
-      <workItem from="1670501589102" duration="4469000" />
+      <workItem from="1670501589102" duration="5466000" />
+      <workItem from="1670557515887" duration="348000" />
     </task>
     <servers />
   </component>
