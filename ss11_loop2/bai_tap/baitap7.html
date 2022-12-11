@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = 0;
+    while (num >= 0 && num < 100) {
+        if (num % 3 === 0 && num % 5 !== 0) {
+            document.write(num + "fizz" + "<br>");
+        } else if (num % 5 === 0 && num % 3 !== 0) {
+            document.write(num + "buzz" + "<br>");
+        } else if (num % 3 === 0 && num % 5 === 0) {
+            document.write(num + "fizzbuzz" + "<br>");
+        }
+        num += 1;
+    }
+    document.write(num)
+</script>
+</body>
+</html>
