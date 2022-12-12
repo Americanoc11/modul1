@@ -9,11 +9,13 @@
     let num = 0;
     while (num >= 0 && num < 100) {
         if (num % 3 === 0 && num % 5 !== 0) {
-            document.write(num + "fizz" + "<br>");
+            document.write("fizz" + "<br>");
         } else if (num % 5 === 0 && num % 3 !== 0) {
-            document.write(num + "buzz" + "<br>");
+            document.write("buzz" + "<br>");
         } else if (num % 3 === 0 && num % 5 === 0) {
-            document.write(num + "fizzbuzz" + "<br>");
+            document.write("fizzbuzz" + "<br>");
+        } else {
+            document.write(num + "<br>");
         }
         num += 1;
     }
