@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let N = +prompt(" mời Nhập lại");
+    let count = 0;
+    for (; N < 100; N++) {
+        if (N <= 0 && N >= 100) {
+            let N = +prompt(" mời Nhập lại");
+        }
+        count++;
+        document.write("thỏa điều kiện" + count + "<br>");
+    }
+</script>
+</body>
+</html>
