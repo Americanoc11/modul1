@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = [8, 2, 4, 5, 10, 20, 44, 55, 99, 50];
+    let max = num[0];
+    let index = 0;
+    for (let i = 0; i < num.length; i++) {
+        if (num[i] >= max && num[i] >= 10) {
+            max = num[i].toString();
+            document.write(max + "<br>");
+        }
+    }
+</script>
+</body>
+</html>
