@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let num = prompt("nhập giá trị");
+    let string = num.toString();
+    let result = [string[0]];
+    for (x = 1; x < string.length; x++) {
+        if (string[x - 1] % 2 == 0 && string[x] % 2 == 0) {
+            result.push("-", string[x]);
+        } else {
+            result.push(string[x]);
+        }
+    }
+    document.write("num = " + result.join(''));
+</script>
 </body>
 </html>
