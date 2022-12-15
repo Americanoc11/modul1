@@ -20,19 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aba12cf-99f0-4e6f-a40c-66c6264a94a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/bai3_luyentap_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/bai5_luyentap_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/bai6_luyentap_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/bai7_luyentap_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/bai8_luyentap_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/bai9_luyentap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/lt_mang02/bai1_luyentap2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14_ham_01_02/foot_meters.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14_ham_01_02/ktra_songuyento.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14_ham_01_02/luyentap_ham01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/lt_mang02/bai2_luyentap02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/lt_mang02/bai3_luyentap02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/lt_mang02/bai4_luyentap02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/lt_mang02/bai5_luyentap02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/lt_mang02/bai6_luyentap02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/baitap2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/baitap2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang2/thuc_hanh/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang2/thuc_hanh/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/bai3_luyentap_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/bai3_luyentap_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/bai9_luyentap.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/bai9_luyentap.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +131,8 @@
       <workItem from="1670895473675" duration="13834000" />
       <workItem from="1670930105790" duration="9992000" />
       <workItem from="1670947909600" duration="24710000" />
-      <workItem from="1671079482051" duration="9638000" />
+      <workItem from="1671079482051" duration="10244000" />
+      <workItem from="1671101679179" duration="6321000" />
     </task>
     <servers />
   </component>
