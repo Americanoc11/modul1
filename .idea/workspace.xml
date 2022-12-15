@@ -20,10 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aba12cf-99f0-4e6f-a40c-66c6264a94a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/bai1_luyetap_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/bai4_luyentap_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/baitap2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/bai3_luyentap_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/bai5_luyentap_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/bai6_luyentap_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/bai7_luyentap_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/bai8_luyentap_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/bai9_luyentap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/lt_mang02/bai1_luyentap2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss14_ham_01_02/foot_meters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss14_ham_01_02/ktra_songuyento.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss14_ham_01_02/luyentap_ham01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/baitap2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/baitap2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang2/thuc_hanh/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang2/thuc_hanh/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +71,11 @@
       <recent name="D:\codegym\module1\ss4_git_htmlt\bai_tap" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.bai2.html">
+  <component name="RunManager" selected="JavaScript Debug.bai4_luyentap_1.html">
     <configuration name="bai2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/ss13_mang2/bai_tap/sudung_mang/bai2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="bai4_luyentap_1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/ss13_mang2/bai_tap/LT_mang01/bai4_luyentap_1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="baitap3.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/ss11_loop2/bai_tap/luyentap_2/baitap3.html" useBuiltInWebServerPort="true">
@@ -72,19 +84,16 @@
     <configuration name="baitap4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/ss11_loop2/bai_tap/luyentap_2/baitap4.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="test1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/ss11_loop2/thuc_hanh/test1.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/ss12_mang1/thuc_hanh/test.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.bai4_luyentap_1.html" />
         <item itemvalue="JavaScript Debug.bai2.html" />
         <item itemvalue="JavaScript Debug.test.html" />
         <item itemvalue="JavaScript Debug.baitap4.html" />
         <item itemvalue="JavaScript Debug.baitap3.html (1)" />
-        <item itemvalue="JavaScript Debug.test1.html" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +135,8 @@
       <workItem from="1670844686971" duration="4017000" />
       <workItem from="1670895473675" duration="13834000" />
       <workItem from="1670930105790" duration="9992000" />
-      <workItem from="1670947909600" duration="20700000" />
+      <workItem from="1670947909600" duration="24710000" />
+      <workItem from="1671079482051" duration="9638000" />
     </task>
     <servers />
   </component>
@@ -157,70 +167,70 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1215" y="333" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1670657390265" />
-    <state width="936" height="224" key="GridCell.Tab.0.bottom" timestamp="1670926956550">
+    <state width="936" height="224" key="GridCell.Tab.0.bottom" timestamp="1671022119386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1670926956550" />
-    <state width="936" height="224" key="GridCell.Tab.0.center" timestamp="1670926956550">
+    <state width="936" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1671022119386" />
+    <state width="936" height="224" key="GridCell.Tab.0.center" timestamp="1671022119386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1670926956550" />
-    <state width="936" height="224" key="GridCell.Tab.0.left" timestamp="1670926956549">
+    <state width="936" height="224" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1671022119386" />
+    <state width="936" height="224" key="GridCell.Tab.0.left" timestamp="1671022119386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1670926956549" />
-    <state width="936" height="224" key="GridCell.Tab.0.right" timestamp="1670926956550">
+    <state width="936" height="224" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1671022119386" />
+    <state width="936" height="224" key="GridCell.Tab.0.right" timestamp="1671022119386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1670926956550" />
-    <state width="936" height="224" key="GridCell.Tab.1.bottom" timestamp="1670926956550">
+    <state width="936" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1671022119386" />
+    <state width="936" height="224" key="GridCell.Tab.1.bottom" timestamp="1671022119387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1670926956550" />
-    <state width="936" height="224" key="GridCell.Tab.1.center" timestamp="1670926956550">
+    <state width="936" height="224" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1671022119387" />
+    <state width="936" height="224" key="GridCell.Tab.1.center" timestamp="1671022119386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1670926956550" />
-    <state width="936" height="224" key="GridCell.Tab.1.left" timestamp="1670926956550">
+    <state width="936" height="224" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1671022119386" />
+    <state width="936" height="224" key="GridCell.Tab.1.left" timestamp="1671022119386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1670926956550" />
-    <state width="936" height="224" key="GridCell.Tab.1.right" timestamp="1670926956550">
+    <state width="936" height="224" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1671022119386" />
+    <state width="936" height="224" key="GridCell.Tab.1.right" timestamp="1671022119386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1670926956550" />
-    <state width="936" height="224" key="GridCell.Tab.2.bottom" timestamp="1670926956551">
+    <state width="936" height="224" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1671022119386" />
+    <state width="936" height="224" key="GridCell.Tab.2.bottom" timestamp="1671022119387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1670926956551" />
-    <state width="936" height="224" key="GridCell.Tab.2.center" timestamp="1670926956551">
+    <state width="936" height="224" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1671022119387" />
+    <state width="936" height="224" key="GridCell.Tab.2.center" timestamp="1671022119387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1670926956551" />
-    <state width="936" height="224" key="GridCell.Tab.2.left" timestamp="1670926956551">
+    <state width="936" height="224" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1671022119387" />
+    <state width="936" height="224" key="GridCell.Tab.2.left" timestamp="1671022119387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1670926956551" />
-    <state width="936" height="224" key="GridCell.Tab.2.right" timestamp="1670926956551">
+    <state width="936" height="224" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1671022119387" />
+    <state width="936" height="224" key="GridCell.Tab.2.right" timestamp="1671022119387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1670926956551" />
-    <state width="936" height="224" key="GridCell.Tab.3.bottom" timestamp="1670926956551">
+    <state width="936" height="224" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1671022119387" />
+    <state width="936" height="224" key="GridCell.Tab.3.bottom" timestamp="1671022119387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1670926956551" />
-    <state width="936" height="224" key="GridCell.Tab.3.center" timestamp="1670926956551">
+    <state width="936" height="224" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1671022119387" />
+    <state width="936" height="224" key="GridCell.Tab.3.center" timestamp="1671022119387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1670926956551" />
-    <state width="936" height="224" key="GridCell.Tab.3.left" timestamp="1670926956551">
+    <state width="936" height="224" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1671022119387" />
+    <state width="936" height="224" key="GridCell.Tab.3.left" timestamp="1671022119387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1670926956551" />
-    <state width="936" height="224" key="GridCell.Tab.3.right" timestamp="1670926956551">
+    <state width="936" height="224" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1671022119387" />
+    <state width="936" height="224" key="GridCell.Tab.3.right" timestamp="1671022119387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="224" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1670926956551" />
+    <state width="936" height="224" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1671022119387" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1670466423107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -266,6 +276,11 @@
           <url>file://$PROJECT_DIR$/ss11_loop2/bai_tap/luyentap_2/baitap4.html</url>
           <line>10</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/ss13_mang2/bai_tap/LT_mang01/bai4_luyentap_1.html</url>
+          <line>11</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

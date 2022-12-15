@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let numbers = [1, 2, 3, 4, 5];
+    let max = numbers[0];
+    let min = numbers[0];
+    let index = 0;
+    for (let i = 0; i < numbers.length; i++) {
+        if ((numbers[i] > max)) {
+            max = numbers[i];
+            index = 1;
+        }
+    }
+    for (let j = 0; j <= numbers.length; j++) {
+        if (numbers[j] > min) {
+            min = numbers[j];
+            total = (numbers[j] + j) / numbers.length;
+        }
+    }
+    document.write("max: " + max + "<br>" + "index: " + index + "<br>" + "value :" + total)
+
+
+</script>
+</body>
+</html>
