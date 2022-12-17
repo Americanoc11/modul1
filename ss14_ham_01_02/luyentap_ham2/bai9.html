@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let keyArray = [11, 0, 2, 3, 22, 33, 45, 66, 77, 88];
+    let characters = +prompt(" mời nhập kí tự");
+    let index = -1;
+    let count = 0;
+    for (let i = 0; i < keyArray.length; i++) {
+        if (characters == keyArray[i]) {
+            index = i;
+            count = 0;
+            break;
+        } else {
+            count++;
+        }
+    }
+   
+</script>
+</body>
+</html>

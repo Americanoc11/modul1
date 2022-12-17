@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = +prompt(" nhập số nguyên đầu tiên");
+    let b = +prompt(" nhập số nguyên 1");
+    let c = +prompt(" nhập số nguyên 2");
+    total = a, b, c;
+    addinteger();
+
+    function addinteger() {
+        if (a < b && a < c) {
+            alert("minValue a : " + a);
+        } else if (b < a && b < c) {
+            alert("minValue b : " + b);
+        } else if (c < a && c < b) {
+            alert(" minValue c: " + c);
+        } else if (a == b == c) {
+            alert(" minValue a,b,c" + total);
+        }
+    }
+
+</script>
+</body>
+</html>
