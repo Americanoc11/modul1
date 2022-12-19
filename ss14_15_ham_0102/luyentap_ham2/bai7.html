@@ -6,9 +6,14 @@
 </head>
 <body>
 <script>
-    let number1= +prompt(" input number 1");
-    let number2= +prompt(" input number2");
-    function changeNumber() {
+    let number1 = +prompt(" input number 1");
+    let number2 = +prompt(" input number2");
+
+    changeNumber(number2, number1);
+    alert( changeNumber(number1, number2));
+
+    function changeNumber(number1, number2) {
+        return [number2, number1]
     }
 </script>
 </body>

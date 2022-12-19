@@ -2,9 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<canvas id="myCanvas" width="200" height="100" style="border: 1px solid">
+
+</canvas>
+<script>
+    class Rectangle {
+        constructor(length, width,) {
+            this.lengthint = length;
+            this.widthint = width;
+        }
+
+        getArea() {
+            return (this.lengthint * this.widthint);
+        }
+
+        getPerimeter() {
+            return ((this.lengthint + this.widthint) * 2);
+        }
+    }
+
+    let hcn = new Rectangle(5, 5);
+    document.getElementById("myCanvas").innerHTML=hcn.getArea();
+    // alert(hcn.getArea());
+    // alert(hcn.getPerimeter());
+</script>
 </body>
 </html>

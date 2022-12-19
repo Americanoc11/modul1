@@ -2,9 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+
+    //bai 1
+    /*
+    let i = 0;
+    let a = 0;
+    let b = 1;
+    let c = a + b;
+    let value = "";
+    while (i < 100) {
+        a = b;
+        b = c;
+        c = a + b;
+        value = c;
+        i++;
+        document.write(value + " <br>");
+    }
+
+     */
+    //bai2
+    /*
+    let value = +prompt(" nhập giá trị để tính giai thừa");
+    let fat = 1;
+    for (let i = 1; i <=value; i++) {
+        fat *= i;
+    }
+    document.write("<br>" + value + "!=" + fat);
+
+     */
+    //bai3
+    /*
+    for (let i = 0; i <= 5; i++) {
+        document.write("<br>");
+        for (let j = 0; j < i; j++) {
+            document.write("*");
+        }
+    }
+    document.write("<br>");
+
+    for (let i = 5; i >= 0; i--) {
+        document.write("<br>");
+        for (let j = 0; j < i; j++) {
+            document.write("*");
+        }
+    }
+    document.write("<br>");
+
+    for (let i = 0; i <= 5; i++) {
+        document.write("<br>");
+        for (let a = 4; a >= i; a--) {
+            document.write("&nbsp&nbsp");
+        }
+        for (let j = 0; j < i; j++) {
+            document.write("*");
+        }
+    }
+    document.write("<br>")
+    for (let i = 0; i <= 5; i++) {
+        document.write("<br>");
+        for (let a = 0; a < i; a++) {
+            document.write("&nbsp&nbsp");
+        }
+        for (let j = 5; j > i; j--) {
+            document.write("*");
+        }
+    }
+
+     */
+    //bai4
+    for (let i=0;i<=10;i++) {
+        document.write("<br>")
+        for (let j= 0;j<i;j++) {
+            document.write("*")
+        }
+    }
+</script>
 </body>
 </html>

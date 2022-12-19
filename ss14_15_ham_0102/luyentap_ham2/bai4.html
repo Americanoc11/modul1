@@ -6,11 +6,15 @@
 </head>
 <body>
 <script>
-    let characters = prompt("nhập kí tự số hay chữ bất kì");
-    specialCharacter();
+    let characters = +prompt("nhập kí tự số hay chữ bất kì");
+    alert(specialCharacter(characters));
 
-    function specialCharacter() {
+    function specialCharacter(characters) {
+        if (!isNaN(characters)) {
+            return true;
+        } else return false;
     }
+
 </script>
 </body>
 </html>

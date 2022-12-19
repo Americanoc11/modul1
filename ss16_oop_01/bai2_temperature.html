@@ -2,9 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    class changeTemp {
+        constructor(tempC, tempF, tempK) {
+            this.tempC = tempC;
+            this.tempF = tempF;
+            this.tempK = tempK;
+        }
+
+        getTempC() {
+            return this.tempC;
+        }
+
+        getTempF() {
+            return 9 / 5 * this.tempC + 32;
+        }
+
+        getTempK() {
+            return this.tempC + 273.15;
+        }
+
+    }
+
+    let temperature = new changeTemp(10);
+    temperature.getTempF();
+    temperature.getTempK();
+    temperature.getTempC();
+    document.write("Temp C : " + temperature.getTempC() + "<br>" + "TempF" + temperature.getTempK() + "<br>" + "TempK : " + temperature.getTempK())
+</script>
 </body>
 </html>

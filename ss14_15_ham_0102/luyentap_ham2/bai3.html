@@ -7,16 +7,16 @@
 <body>
 <script>
     let factorial = +prompt(" nhập giá trị giai thừa");
-    value = 1;
-    factorialOf();
+    let value = 1;
+    factorialOf(factorial);
 
-    function factorialOf() {
+    function factorialOf(i) {
         for (let i = 1; i <= factorial; i++) {
             value *= i;
         }
         alert("factorial : " + factorial + "!=" + value);
     }
-</script>
 
+</script>
 </body>
 </html>

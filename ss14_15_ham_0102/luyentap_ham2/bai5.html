@@ -9,10 +9,10 @@
     let a = +prompt(" nhập số nguyên đầu tiên");
     let b = +prompt(" nhập số nguyên 1");
     let c = +prompt(" nhập số nguyên 2");
-    total = a, b, c;
-    addinteger();
+    let total = a, b, c;
+    addinteger(a, b, c);
 
-    function addinteger() {
+    function addinteger(a, b, c) {
         if (a < b && a < c) {
             alert("minValue a : " + a);
         } else if (b < a && b < c) {
