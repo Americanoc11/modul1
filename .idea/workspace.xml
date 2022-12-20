@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aba12cf-99f0-4e6f-a40c-66c6264a94a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ss17_oop_02/adam_eva.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17_oop_02/lamp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_15_ham_0102/luyentap_ham2/bai9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14_15_ham_0102/luyentap_ham2/bai9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss16_oop_01/review_hcn.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss16_oop_01/review_hcn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baitap_loop/recap_baitap/loop_basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitap_loop/recap_baitap/loop_basic.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -135,7 +137,8 @@
       <workItem from="1671420591276" duration="12989000" />
       <workItem from="1671452659695" duration="958000" />
       <workItem from="1671456269615" duration="2464000" />
-      <workItem from="1671506172717" duration="3027000" />
+      <workItem from="1671506172717" duration="9688000" />
+      <workItem from="1671537030973" duration="603000" />
     </task>
     <servers />
   </component>
@@ -166,6 +169,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1215" y="333" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1670657390265" />
+    <state x="1191" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1671528001888">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1191" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1671528001888" />
     <state width="936" height="223" key="GridCell.Tab.0.bottom" timestamp="1671267751746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -230,10 +237,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="936" height="223" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1671267751747" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1670466423107">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1671528354163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1670466423107" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1671528354163" />
     <state x="1081" y="244" key="run.anything.popup" timestamp="1670986128492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
