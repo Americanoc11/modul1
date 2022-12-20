@@ -6,11 +6,28 @@
 </head>
 <body>
 <script>
-    let keyArray = [11, 0, 2, 3, 22, 33, 45, 66, 77, 88];
-    function addArray() {
-        let characters = +prompt(" mời nhập kí tự");
+    let lengthArr = prompt("Nhập giá trị phần tử");
+    let arrKey = [];
+    let inputCharacter = prompt("Nhâp ký tự chữ hoặc số bất kỳ");
+    for (let i = 0; i < lengthArr; i++) {
+        arrKey[i] = prompt("nhập giá trị cho mảng");
     }
 
+    function checkCharacter(character, arr) {
+        let count = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (character === arr[i]) {
+                count++;
+            }
+        }
+        if (count > 0) {
+            return count;
+        } else {
+            return -1;
+        }
+    }
+
+    document.write(checkCharacter(inputCharacter, arrKey));
 
 </script>
 </body>

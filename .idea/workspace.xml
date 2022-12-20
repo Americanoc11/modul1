@@ -21,39 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8aba12cf-99f0-4e6f-a40c-66c6264a94a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitap_loop/baitap1_arr.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitap_loop/baitap1_arr.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitap_loop/baitap_haitt/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitap_loop/baitap_haitt/bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitap_loop/baitap_haitt/baitap4.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitap_loop/baitap_haitt/baitap4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitap_loop/baitap_haitt/baitap5.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitap_loop/baitap_haitt/baitap5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitap_loop/recap_baitap/1_luyentap_loop1.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitap_loop/recap_baitap/1_luyentap_loop1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitap_loop/recap_baitap/2_luyentap_loop2.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitap_loop/recap_baitap/2_luyentap_loop2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitap_loop/recap_baitap/loop_basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitap_loop/recap_baitap/loop_basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitap_loop/recap_baitap/recap1.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitap_loop/recap_baitap/recap1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_loop2/thuc_hanh/test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_loop2/thuc_hanh/test1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_15_ham_0102/luyentap_ham2/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14_15_ham_0102/luyentap_ham2/bai3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_15_ham_0102/luyentap_ham2/bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14_15_ham_0102/luyentap_ham2/bai4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_15_ham_0102/luyentap_ham2/bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14_15_ham_0102/luyentap_ham2/bai5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_15_ham_0102/luyentap_ham2/bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14_15_ham_0102/luyentap_ham2/bai6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_15_ham_0102/luyentap_ham2/bai7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14_15_ham_0102/luyentap_ham2/bai7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_15_ham_0102/luyentap_ham2/bai8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14_15_ham_0102/luyentap_ham2/bai8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss14_15_ham_0102/luyentap_ham2/bai9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14_15_ham_0102/luyentap_ham2/bai9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham_01_02/foot_meters.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham_01_02/ktra_songuyento.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham_01_02/luyentap_ham1/Bai1_luyentap_ham01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham_01_02/luyentap_ham1/Bai2_luyentap_ham01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham_01_02/luyentap_ham1/Bai3_luyentap_ham01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham_01_02/luyentap_ham1/Bai4_luyentap_ham01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham_01_02/luyentap_ham1/Bai5_luyentap_ham01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham_01_02/luyentap_ham2/bai1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham_01_02/luyentap_ham2/bai2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham_01_02/luyentap_ham2/bai3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham_01_02/luyentap_ham2/bai4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham_01_02/luyentap_ham2/bai5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham_01_02/luyentap_ham2/bai6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham_01_02/luyentap_ham2/bai7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham_01_02/luyentap_ham2/bai8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham_01_02/luyentap_ham2/bai9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss16_oop_01/bai2_temperature.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss16_oop_01/bai2_temperature.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss16_oop_01/review_hcn.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss16_oop_01/review_hcn.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +134,8 @@
       <workItem from="1671334400625" duration="16568000" />
       <workItem from="1671420591276" duration="12989000" />
       <workItem from="1671452659695" duration="958000" />
-      <workItem from="1671456269615" duration="1022000" />
+      <workItem from="1671456269615" duration="2464000" />
+      <workItem from="1671506172717" duration="3027000" />
     </task>
     <servers />
   </component>
