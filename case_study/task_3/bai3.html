@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let a = [5, 2, 5];
+    let b = [6, 3, 4];
+    let max = 0;
+    let index = 0;
+    let arr = [];
+    for (let i = 0; i < a.length; i++) {
+        let fraction = a[i] / b[i];
+        if (max < fraction) {
+            max = Math.ceil(fraction);
+            index = i;
+        }
+    }
+    document.write("max : " + max + "<br>" + "index: " + index);
+</script>
 </body>
 </html>

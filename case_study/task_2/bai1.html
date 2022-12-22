@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let salary = +prompt("nhập thu nhập hàng tháng");
+    let inCome = 0;
+    let total = 0;
+
+    if (salary < 7000000) {
+        inCome = salary * 5 / 100;
+        total = salary - inCome;
+        document.write("Trừ thuế 5% : " + inCome + "<br>" + "Total : " + total);
+    } else if (salary >= 7000000 && salary < 15000000) {
+        inCome = salary * 10 / 100;
+        total = salary - inCome;
+        document.write("Trừ thuế 10% : " + inCome + "<br>" + "Total : " + total);
+    } else if (salary == 15000000) {
+        inCome = salary * 20 / 100;
+        total = salary - inCome;
+        document.write("Trừ thuế 20% : " + inCome + "<br>" + "Total : " + total);
+    }
+
+</script>
 </body>
 </html>
