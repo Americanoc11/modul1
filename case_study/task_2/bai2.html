@@ -6,8 +6,23 @@
 </head>
 <body>
 <script>
-    let aphalbet=parseInt(prompt(" nhập ký tự bất kỳ"));
-
+    let aphalbet = parseInt(prompt(" nhập ký tự bất kỳ"));
+    switch (aphalbet) {
+        case 'u':
+        case 'i':
+        case 'a':
+        case 'e':
+        case 'O':
+        case 'U':
+        case 'I':
+        case 'A':
+        case 'E':
+        case 'o':
+            document.write("là nguyên âm");
+            break;
+        default:
+            document.write("là phụ âm");
+    }
 </script>
 </body>
 </html>

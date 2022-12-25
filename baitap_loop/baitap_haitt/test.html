@@ -6,11 +6,71 @@
 </head>
 <body>
 <script>
-   let arr= [];
-   for (let i=1;i<=50;i=i+2) {
-       arr.push(i);
-       console.log(arr)
-   }
+    //bai 1
+    // let number = [1, 2, 2, 1];
+    // for (let i = 0; i < number.length; i++) {
+    //     let flag = false;
+    //     for (let j = 0; j < number.length; j++) {
+    //         if (number[j] === number[i] && j !== i) {
+    //
+    //         }
+    //     }
+    // }
+
+    //bài 2
+    // let a = "Abcdef";
+    // let b = "Adghjklbc";
+    // let arrA = a.split("");
+    // let arrB = b.split("");
+    // let arrC = [];
+    // let count = 0;
+    // for (let i = 0; i < arrB.length; i++) {
+    //     for (let j = 0; j < arrB.length; j++) {
+    //         if (arrB[j] === arrA[i]) {
+    //             arrC.push(arrB[i]);
+    //             // arrA.splice(i, 1);
+    //             // arrB.splice(j, 1);
+    //         }
+    //     }
+    // }
+    // for (let i = 0; i < arrC.length; i++) {
+    //     count++
+    // }
+    // document.write("Ouput : " + count);
+
+    //bai 3
+    // let a= "hello"
+    // let arrA= a.split("Hello");
+    // console.log(arrA)
+
+    let number =    [1, 2, 2, 3, 1, 3, 1, 3];
+    let flag = true;
+    // bubbleSort()
+    //
+    // function bubbleSort(number) {
+    //     for (let i = 0; i < number.length; i++) {
+    //         for (let j = 0; j < number.length; j++) {
+    //             if (number[i] !== number[j]) {
+    //                 return false;
+    //             }
+    //         }
+    //     }
+    //     return true;
+    //     alert("true")
+    for (let i = 0; i < number.length; i++) {
+        for (let j = 0; j < number.length; j++) {
+            // }
+            let flag = true;
+            if (number[i] !== number[j]) {
+                flag = false;
+            }
+        }
+    }
+    if (flag == true) {
+        alert(" True")
+    } else {
+        alert(" False")
+    }
 </script>
 </body>
 </html>

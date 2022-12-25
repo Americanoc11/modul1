@@ -21,19 +21,6 @@
                 c.push(b[i]);
             }
         }
-    } else if (a.length >= b.length) {
-        for (let i = 0; i < b.length; i++) {
-            let flag = true;
-            for (let j = 0; j < b.length; j++) {
-                if (a[i] === b[j]) {
-                    flag = false;
-                    break;
-                }
-            }
-            if (flag == true) {
-                c.push(a[i]);
-            }
-        }
     }
     document.write(c)
 </script>

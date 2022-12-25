@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //task2 bài 2
+
+    // let a = [7, 2, 5, 3, 5, 3];
+    // let b = [7, 2, 5, 4, 6, 3, 5, 3];
+    // let c = [];
+    // if (a.length < b.length) {
+    //     for (let i = 0; i < b.length; i++) {
+    //         let flat = true;
+    //         for (let j = 0; j < a.length; j++) {
+    //             if (a[j] === b[i]) {
+    //                 flat = false;
+    //             }
+    //         }
+    //         if (flat == true) {
+    //             c.push(b[i])
+    //         }
+    //     }
+    //     document.write(c)
+    // }
+
+    //task4 - bai 2
+    // tim kí tự khác nhau trong mảng
+    // let s = "cabca";
+    // let arr = s.split("");
+    // // vòng lặp set mảng gốc
+    // for (let i = 0; i < arr.length; i++) {
+    //     //vòng lặp set lại từng phần tử cho mảng phụ
+    //     for (let j = 0; j < arr.length; j++) {
+    //         if (arr[i] === arr[j] && i !== j) {
+    //             arr.splice(j, 1);
+    //         }
+    //     }
+    // }
+    // console.log(arr.length)
+
+    //
+    // let s1 = "aabcc";
+    // let s2 = "adcaa";
+    // let s3 =[];
+    // let arrS1 = s1.split("");
+    // let arrS2 = s2.split("");
+    // // if (arrS1.length === arrS2.length) {
+    // //     for (let i = 0; i < arrS2.length; i++) {
+    // //         let flag = true;
+    // //         for (let j = 0; j < arrS1.length; j++) {
+    // //             flag == false;
+    // //         }
+    // //
+    // //         if (flag === true) {
+    // //             s3.push(s2[i])
+    // //         }
+    // //         document.write(s3);
+    // //     }
+    // // }
+    // for (let i = 0; i < s2.length; i++) {
+    //     for (let j = 0; j < s1.length; j++) {
+    //         if (s2[i] === s1[j] && i == j) {
+    //             s3.push(s1[j])
+    //         }
+    //     }
+    //     document.write(s3)
+    // }
+
+    // let s1 = "aabcc";
+    // let s2 = "adcaa";
+    // let arr1 = s1.split("");
+    // let arr2 = s2.split("");
+    // let array = [];
+    // for (let i = 0; i < arr1.length; i++) {
+    //     for (let j = 0; j < arr2.length; j++) {
+    //         if (arr1[i] === arr2[j]) {
+    //             array.push(arr1[i]);
+    //             arr1.splice(i, 1);
+    //             arr2.splice(j, 1);
+    //         }
+    //     }
+    // }
+    //
+    // for (let n = 0; n < array.length; n++) {
+    //     let count = 1;
+    //     for (let m = n + 1; m < array.length; m++) {
+    //         if (array[n] === array[m]) {
+    //             count++;
+    //             array.splice(m, 1);
+    //             m--;
+    //         }
+    //     }
+    //     document.write("Có " + count + " ký tự  " + array[n] + "<br>");
+    // }
+
+    // task5_ bai 1
+    function sumtotal(array) {
+        let sum = 0;
+        for (let i = 0; i < array.length; i++) {
+            for (let j = 0; j < array[i].length; j++) {
+                if (array[i][j] % 2 === 0) {
+                    sum += array[i][j];
+                }
+            }
+        }
+        return sum;
+    }
+
+    let m = +prompt("Nhap do dai cua mang 2 chieu:");
+    let arr1 = new Array(m);
+    for (let i = 0; i < m; i++) {
+        let n = +prompt("Nhap do dai mang : " + i);
+        let arr2 = new Array(n);
+        for (let j = 0; j < n; j++) {
+            arr2[j] = +prompt("nhap gia tri: " + j);
+
+        }
+        arr1[i] = arr2;
+    }
+
+    alert(sumtotal(arr1));
+
+    // task 5 bai 2
+    function check(number) {
+        if (number === 2 || number === 3) {
+            return true;
+        } else {
+            let flag = true;
+            for (let i = 2; i <= Math.sqrt(number); i++) {
+                if (number % i === 0) {
+                    flag = false;
+                    return flag;
+                }
+                return flag;
+            }
+        }
+    }
+
+    let arr = [];
+    let arrNew = [[2, 4, 6, 5, 7, 3], [5, 8, 3, 9, 2, 4]];
+    for (let a = 0; a < arrNew.length; a++) {
+        for (let j = 0; j < arrNew[a].length; j++) {
+            if (check(arrNew[a][j]) === true) {
+                arr.push(arrNew[a][j]);
+            }
+        }
+    }
+    document.write(arr + "<br>");
+    document.write("Co " + arr.length + " so");
+
+    //task 5 bài 3
+    function findMax(array) {
+        let max = array[0][0];
+        for (let i = 0; i < array.length; i++) {
+            for (let j = 0; j < array[i].length; j++) {
+                if (array[i][j] > max) {
+                    max = array[i][j];
+                }
+            }
+        }
+        return max;
+
+    }
+
+    function findMin(array) {
+        let min = array[0][0];
+        for (let i = 0; i < array.length; i++) {
+            for (let j = 0; j < array[i].length; j++) {
+                if (array[i][j] < min) {
+                    min = array[i][j];
+                }
+            }
+        }
+        return min;
+
+    }
+
+    let n = +prompt("nhap do dai mang 2 chieu");
+    let arr1 = new Array(n);
+    for (let i = 0; i < n; i++) {
+        let m = +prompt("nhap do dai mang i:" + i);
+        let arr2 = new Array(m);
+        for (let j = 0; j < m; j++) {
+            arr2[j] = +prompt("nhap phan tu:" + j);
+        }
+        arr1[i] = arr2;
+    }
+    document.write("max = " + findMax(arr1) + "<br>");
+    document.write("min = " + findMin(arr1));
+
+
+</script>
+</body>
+</html>

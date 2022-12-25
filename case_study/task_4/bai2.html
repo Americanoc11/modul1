@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let s = "cabca";
+    //split thêm nháy kép để chuyển ký tự trong chuỗi thành mảng
+    let arr = s.split("");
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr.length; j++) {
+            if (arr[i] == arr[j] && i !== j) {
+                arr.splice(j, 1);
+            }
+        }
+    }
+    document.write("index : " + arr.length);
+</script>
+</body>
+</html>

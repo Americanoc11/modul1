@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = "aabcc"
+    let b = "adcaa"
+    let arrA = a.split("");
+    let arrB = b.split("");
+    let arrC = [];
+    for (let i = 0; i < arrA.length; i++) {
+        for (let j = 0; j < arrB.length; j++) {
+            if (arrA[i] === arrB[j]) {
+                arrC.push(arrA[i]);
+                arrA.splice(i, 1);
+                arrB.splice(j, 1);
+            }
+        }
+    }
+    for (let i = 0; i < arrC.length; i++) {
+        let count = 1;
+        for (let j = i + 1; j < arrC.length; j++) {
+            if (arrC[i] === arrC[j]) {
+                count++;
+                arrC.splice(j, 1);
+                j--;
+            }
+        }
+        document.write(count + " character " + arrC[i] + "<br>");
+    }
+</script>
+</body>
+</html>
