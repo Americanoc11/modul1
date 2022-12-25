@@ -97,18 +97,7 @@
     // }
 
     // task5_ bai 1
-    function sumtotal(array) {
-        let sum = 0;
-        for (let i = 0; i < array.length; i++) {
-            for (let j = 0; j < array[i].length; j++) {
-                if (array[i][j] % 2 === 0) {
-                    sum += array[i][j];
-                }
-            }
-        }
-        return sum;
-    }
-
+    /*
     let m = +prompt("Nhap do dai cua mang 2 chieu:");
     let arr1 = new Array(m);
     for (let i = 0; i < m; i++) {
@@ -120,76 +109,122 @@
         }
         arr1[i] = arr2;
     }
-
+    function sumtotal(array) {
+        let sum = 0;
+        for (let i = 0; i < array.length; i++) {
+            for (let j = 0; j < array[i].length; j++) {
+                if (array[i][j] % 2 === 0) {
+                    sum += array[i][j];
+                }
+            }
+        }
+        return sum;
+    }
     alert(sumtotal(arr1));
 
-    // task 5 bai 2
-    function check(number) {
-        if (number === 2 || number === 3) {
-            return true;
-        } else {
-            let flag = true;
-            for (let i = 2; i <= Math.sqrt(number); i++) {
-                if (number % i === 0) {
-                    flag = false;
-                    return flag;
-                }
-                return flag;
-            }
+
+
+   /* xét từng phần tử trong mảng 2 chiều
+    let array= [[0,1,2,3,4],[5,4,3,2,1]];
+    for (let i = 0; i < array.length;i++) {
+        document.writeln("<br>")
+        for (let j = 0 ; j<array[i].length;j++) {
+            document.writeln(array[i][j])
         }
     }
 
-    let arr = [];
-    let arrNew = [[2, 4, 6, 5, 7, 3], [5, 8, 3, 9, 2, 4]];
-    for (let a = 0; a < arrNew.length; a++) {
-        for (let j = 0; j < arrNew[a].length; j++) {
-            if (check(arrNew[a][j]) === true) {
-                arr.push(arrNew[a][j]);
-            }
+    */
+
+
+    //tạo mảng 2 chiều
+    /*
+    //1) cho độ dài mảng cha chứa nhiều mảng con
+    let arrFather= +prompt(" nhập  độ dài cho mảng cha");
+    //2) tạo một mảng mới chuyền tham số độ dài cho mảng
+    let array= new Array(n);
+    //3) tạo vòng lặp để nhập độ dài mảng con
+    for (let i = 0; i < arrFather;i++) {
+        //4) khởi tạo 2 biến nhập độ dài và chuyền vào tạo thêm mảng cha mới
+        let n= +prompt(" nhập đô dài mảng con");
+        let arrayNew= new Array(n);
+        // 5) tạo for lông để nhập giá trị từng phần tử cho độ dài mảng n
+        for (let j= 0 ; j < n;j++) {
+            arrNew[j]= +promt(" nhập chỉ số phần tử cho mảng")
         }
+        // vòng lặp ngoài lưu lại giá trị cho mảng con;
+        // arrayNew đã được thêm phần tử vào mảng
+        arrFather[i]= arrayNew;
     }
-    document.write(arr + "<br>");
-    document.write("Co " + arr.length + " so");
+
+     */
+
+    // task 5 bai 2
+    // function check(number) {
+    //     if (number === 2 || number === 3) {
+    //         return true;
+    //     } else {
+    //         let flag = true;
+    //         for (let i = 2; i <= Math.sqrt(number); i++) {
+    //             if (number % i === 0) {
+    //                 flag = false;
+    //                 return flag;
+    //             }
+    //             return flag;
+    //         }
+    //     }
+    // }
+    //
+    // let arr = [];
+    // let arrNew = [[2, 4, 6, 5, 7, 3], [5, 8, 3, 9, 2, 4]];
+    // for (let a = 0; a < arrNew.length; a++) {
+    //     for (let j = 0; j < arrNew[a].length; j++) {
+    //         if (check(arrNew[a][j]) === true) {
+    //             arr.push(arrNew[a][j]);
+    //         }
+    //     }
+    // }
+    // document.write(arr + "<br>");
+    // document.write("Co " + arr.length + " so");
 
     //task 5 bài 3
-    function findMax(array) {
-        let max = array[0][0];
-        for (let i = 0; i < array.length; i++) {
-            for (let j = 0; j < array[i].length; j++) {
-                if (array[i][j] > max) {
-                    max = array[i][j];
-                }
-            }
-        }
-        return max;
-
-    }
-
-    function findMin(array) {
-        let min = array[0][0];
-        for (let i = 0; i < array.length; i++) {
-            for (let j = 0; j < array[i].length; j++) {
-                if (array[i][j] < min) {
-                    min = array[i][j];
-                }
-            }
-        }
-        return min;
-
-    }
-
-    let n = +prompt("nhap do dai mang 2 chieu");
-    let arr1 = new Array(n);
-    for (let i = 0; i < n; i++) {
-        let m = +prompt("nhap do dai mang i:" + i);
-        let arr2 = new Array(m);
-        for (let j = 0; j < m; j++) {
-            arr2[j] = +prompt("nhap phan tu:" + j);
-        }
-        arr1[i] = arr2;
-    }
-    document.write("max = " + findMax(arr1) + "<br>");
-    document.write("min = " + findMin(arr1));
+    // function findMax(array) {
+    //     let max = array[0][0];
+    //     for (let i = 0; i < array.length; i++) {
+    //         for (let j = 0; j < array[i].length; j++) {
+    //             if (array[i][j] > max) {
+    //                 max = array[i][j];
+    //             }
+    //         }
+    //     }
+    //     return max;
+    //
+    // }
+    //
+    // function findMin(array) {
+    //     let min = array[0][0];
+    //     for (let i = 0; i < array.length; i++) {
+    //         for (let j = 0; j < array[i].length; j++) {
+    //             if (array[i][j] < min) {
+    //                 min = array[i][j];
+    //             }
+    //         }
+    //     }
+    //     return min;
+    //
+    // }
+    //
+    // let n = +prompt("nhap do dai mang 2 chieu");
+    // let arr1 = new Array(n);
+    // for (let i = 0; i < n; i++) {
+    //     let m = +prompt("nhap do dai mang i:" + i);
+    //     let arr2 = new Array(m);
+    //     for (let j = 0; j < m; j++) {
+    //         arr2[j] = +prompt("nhap phan tu:" + j);
+    //     }
+    //     arr1[i] = arr2;
+    // }
+    // document.write("max = " + findMax(arr1) + "<br>");
+    // document.write("min = " + findMin(arr1));
 
 
 </script>

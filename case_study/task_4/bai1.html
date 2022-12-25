@@ -8,10 +8,11 @@
 </body>
 <script>
     let a = prompt("Nhập chuỗi bạn muốn chuyển đổi: ");
-    let array = CheckString(a).split(' ');
+    let array = checkString(a).split(' ');
     document.write("Chuỗi từ bạn vừa nhập sau khi chuyển đổi: " + CheckString(a) + '<br>');
     document.write('Chữ dài nhất trong chuỗi là: ' + max(array));
-    function CheckString(str) {
+
+    function checkString(str) {
         let a = str.toLowerCase().split(" ");
         for (let i = 0; i < a.length; i++) {
             a[i] = a[i].charAt(0).toUpperCase() + a[i].substring(1);
@@ -19,16 +20,6 @@
 
         return a.join(' ');
     }
-    // function max(arr) {
-    //     let max = arr[0];
-    //     for (let j = 0; j < arr.length; j++) {
-    //         if (arr[j] > max) {
-    //             max = arr[j];
-    //         }
-    //     }
-    //
-    //     return max;
-    // }
 
 </script>
 </html>

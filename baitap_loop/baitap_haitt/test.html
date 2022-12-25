@@ -38,39 +38,85 @@
     // }
     // document.write("Ouput : " + count);
 
-    //bai 3
-    // let a= "hello"
-    // let arrA= a.split("Hello");
-    // console.log(arrA)
-
-    let number =    [1, 2, 2, 3, 1, 3, 1, 3];
-    let flag = true;
-    // bubbleSort()
-    //
-    // function bubbleSort(number) {
-    //     for (let i = 0; i < number.length; i++) {
-    //         for (let j = 0; j < number.length; j++) {
-    //             if (number[i] !== number[j]) {
-    //                 return false;
-    //             }
+    // let number =    [1, 2, 2, 3, 1, 3, 1, 3];
+    // let flag = true;
+    // // bubbleSort()
+    // //
+    // // function bubbleSort(number) {
+    // //     for (let i = 0; i < number.length; i++) {
+    // //         for (let j = 0; j < number.length; j++) {
+    // //             if (number[i] !== number[j]) {
+    // //                 return false;
+    // //             }
+    // //         }
+    // //     }
+    // //     return true;
+    // //     alert("true")
+    // for (let i = 0; i < number.length; i++) {
+    //     for (let j = 0; j < number.length; j++) {
+    //         // }
+    //         let flag = true;
+    //         if (number[i] !== number[j]) {
+    //             flag = false;
     //         }
     //     }
-    //     return true;
-    //     alert("true")
-    for (let i = 0; i < number.length; i++) {
-        for (let j = 0; j < number.length; j++) {
-            // }
-            let flag = true;
-            if (number[i] !== number[j]) {
-                flag = false;
+    // }
+    // if (flag == true) {
+    //     alert(" True")
+    // } else {
+    //     alert(" False")
+    // }
+
+    //bai 6
+    // let characters = "abcbdcef";
+    // let arr=[];
+    // let arrC = characters.split("");
+    // for (let i = 0; i < arrC.length; i++) {
+    //     for (let j = 0; j < arrC.length; j++) {
+    //         if (arrC[j] == arrC[i] && j !== i) {
+    //             arr.push(arrC[i])
+    //             arrC.slice(arrC[i],1);
+    //         }
+    //     }
+    // }
+    // document.writeln(arr)
+
+    //bai 7
+    // let m = +prompt(" nhập độ dài mảng cha");
+    // let array1= new Array(m);
+    // for (let i = 0; i < m;i++) {
+    //     let n= +prompt(" nhập độ dài mảng con")
+    //     let array2= new Array(n);
+    //     for (let j = 0 ; j < n; j ++) {
+    //         array1[i]= +prompt(" nhập phần tử");
+    //     }
+    // }
+    // document.writeln(sumtotal(array1))
+    //  function sumtotal(array) {
+    //     let arr3=[]
+    //      for (let i = 0; i < array.length; i++) {
+    //          for (let j = 0; j < array[i].length; j++) {
+    //              if (array[i][j] % 2 === 0) {
+    //                  arr3.push(array[i][j])
+    //              }
+    //          }
+    //      }
+    //      return arr3
+    //  }
+    // không push ra được mảng mới
+
+    //bai 8
+    let a = ["1", "4", "5", "2", "1"];
+    let b = ["1", "2", "3"];
+    for (let i = 0; i < b.length; i++) {
+        for (let j = 0; j < a.length; j++) {
+            if(a[j]==b[i] && j!==i) {
+
             }
         }
     }
-    if (flag == true) {
-        alert(" True")
-    } else {
-        alert(" False")
-    }
+
+
 </script>
 </body>
 </html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // task 5- bài 2
+    let m = +prompt(" nhập độ dài mảng Cha");
+    let arr = new Array(m);
+    // tạo mảng chứa nhiều mảng nhỏ
+    for (let i = 0; i < m; i++) {
+        let n = +prompt(" nhập độ dài cho mảng con");
+        let arr2 = new Array(n);
+        for (let j = 0; j < n; j++) {
+            arr2[j] = +prompt(" nhập phần tử");
+        }
+        arr[i] = arr2;
+    }
+    let arr3 = [];
+    // tạo mảng liệt kê số nguyên nguyên tố
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr[i].length; j++) {
+            if (checkPrime(arr[i][j])==true) {
+                arr3.push(arr[i][j]);
+            }
+        }
+
+    }
+    console.log(checkPrime(number))
+
+    function checkPrime(number) {
+        if (number == 2 || number == 3) {
+            return true;
+        } else {
+            let flag = false;
+            for (let i = 0; i < Math.sqrt(number); i++) {
+                if (number % i == 0) {
+                    flag = false;
+                    return flag;
+                }
+            }
+            return flag;
+        }
+    }
+</script>
+</body>
+</html>

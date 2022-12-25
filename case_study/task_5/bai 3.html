@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let m = +prompt(" nhập độ dài Mảng cha");
+    let arr = new Array(m);
+    for (let i = 0; i < m; i++) {
+        let n = +prompt(" nhập độ dài mảng con");
+        let arr2 = new Array(n);
+        for (let j = 0; j < n; j++) {
+            arr2[j] = +prompt(" nhập phần tử cho mảng")
+        }
+        arr[i] = arr2;
+    }
+    document.write(" max arr : " + maxValue(arr));
+    document.write("min arr : " + minValue(arr));
+
+    function maxValue(array) {
+        let max = 0;
+        for (let i = 0; i < array.length; i++) {
+            for (let j = 0; j < array[i].length; j++) {
+                if (max < array[i][j]) {
+                    max = array[i][j];
+                }
+            }
+        }
+        return max;
+    }
+
+    function minValue(array) {
+        let min = 0;
+        for (let i = 0; i < array.length; i++) {
+            for (let j = 0; j < array[i].length; j++) {
+                if (min > array[i][j]) {
+                    min = array[i][j];
+                }
+            }
+        }
+        return min;
+    }
+</script>
+</body>
+</html>

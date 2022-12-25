@@ -6,13 +6,32 @@
 </head>
 <body>
 <script>
-    let arr=[]
-    for (let i=0;i<5;i++) {
-        for (let j = 0; j<=i;j++) {
-           arr= arr[i][j]
+    let arrFa = +prompt(" nhập độ dài cho mảng cha");
+    let arr = new Array(arrFa);
+    for (let i = 0; i < arrFa; i++) {
+        let n = +prompt(" nhập  độ dài cho mảng con");
+        let arr2 = new Array(n);
+        for (let j = 0; j < n; j++) {
+            arr2[j] = +prompt("nhập chỉ số ");
         }
-        document.write(arr)
+        arr[i] = arr2;
     }
+    function sumTotal(array) {
+
+        let sum = 0;
+        for (let i = 0; i < array.length; i++) {
+            for (let j = 0; j < array.length; j++) {
+                if (array[i][j] % 2 === 0) {
+                    // xét điều kiện để tính tổng các số chẵn
+
+                    sum += array[i][j];
+                }
+            }
+        }
+        return sum;
+    }
+
+    alert(sumTotal(arr));
 </script>
 </body>
 </html>
