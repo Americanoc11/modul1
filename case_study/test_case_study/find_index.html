@@ -226,7 +226,50 @@
     // document.write("max = " + findMax(arr1) + "<br>");
     // document.write("min = " + findMin(arr1));
 
+    // task5 bai 1
+    let m = +prompt(" Enter length m");
+    let arr1 = new Array(m);
+    for (let i = 0; i < m; i++) {
+        let n = prompt(" Enter length n");
+        let arr2 = new Array(n);
+        for (let j = 0; j < n; j++) {
+            arr2[j] = +prompt("input elements");
+        }
+        arr1[i] = arr2;
+        alert(maxValue(arr1))
+    }
 
+    function sumTotal(array) {
+        let sum = 0;
+        for (let i = 0; i < array.length; i++) {
+            for (j = 0; j < array[i].length; j++) {
+                if (array[i][j] % 2 === 0) {
+                    sum += array[i][j]
+                }
+            }
+        }
+        return sum
+    }
+
+    function maxValue(array) {
+        let max = 0;
+        for (let i = 0; i < array.length; i++) {
+            for (let j = 0; j < array[i].length; j++) {
+                if (array[i][j] > max) {
+                    max = array[i][j];
+                }
+            }
+        }
+        return max
+    }
+    function minValue(array) {
+        let min = 0;
+        for (let i = 0 ;i<array.length;i++) {
+            for (let j = )
+        }
+    }
+
+    console.log(arr1);
 </script>
 </body>
 </html>
