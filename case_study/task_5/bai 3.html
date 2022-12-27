@@ -17,7 +17,7 @@
         arr[i] = arr2;
     }
     // document.write(" max arr : " + maxValue(arr));
-   console.log("min arr : " + minValue(arr));
+    console.log("min arr : " + minValue(arr));
 
     function maxValue(array) {
         let max = 0;
@@ -32,7 +32,7 @@
     }
 
     function minValue(array) {
-        let min = 0;
+        let min = array[0][0];
         for (let i = 0; i < array.length; i++) {
             for (let j = 0; j < array[i].length; j++) {
                 if (min > array[i][j]) {
@@ -41,6 +41,14 @@
             }
         }
         return min;
+    }
+
+    function checkNumber(array) {
+        for (let i = 0; i < array.length; i++) {
+            for (let j = 0; j < array[i].length; j++) {
+        
+            }
+        }
     }
 </script>
 </body>
